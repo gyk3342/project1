@@ -6,12 +6,25 @@
 
 #无遮挡：
 
-##YOLO v8 pose
+YOLO v8 pose
 
-##mediapipe pose 
+mediapipe pose 
 
 <img width="1164" height="698" alt="image" src="https://github.com/user-attachments/assets/fe10418f-2d8f-4f60-a214-aee4de228b3a" />
 
+#有遮挡（关键节点）
+
+轻度遮挡
+
+可见光与热成像的特征做融合，两者权重各 50%，互补短板
+
+中度遮挡
+
+运动学先验 + IK 补全，优先解析法，速度快精度高
+
+重度遮挡
+
+运动学先验约束的图卷积补全兜底
 
 ###人体热舒适状态识别（偏热，偏冷，舒适等）
 
